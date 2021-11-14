@@ -114,33 +114,3 @@ let newProductName, newUnitPrice, newQuantity
 console.log("productName: " + newProductName )
 console.log(newUnitPrice)
 console.log(newQuantity)
-
-
-
-
-function findPrime(...asalSayi) 
-{   
-    let kontrol = 0    
-        for (i= 2; i < asalSayi.length; i++) 
-         {
-            let isPrime = 0
-
-            if (asalSayi[i]i==0)
-            {
-             kontrol++
-            }
-            if(kontrol==0)
-            {
-            console.log("sayı asal değildir.")
-            }
-            else
-            {
-            console.log("sayı asaldır")
-            }
-
-         }
-    }
-    let sayi2 = [40,30]
-   
-
-  
