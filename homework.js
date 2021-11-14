@@ -8,7 +8,6 @@ function findNPrime(...numbers) {
         isPrime++         
            
        }  
-    }
 
     if (isPrime==0) {
 
