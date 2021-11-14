@@ -68,7 +68,7 @@ function friendNumberFind(sayi1,sayi2) {
 friendNumberFind(220,284)
 
 // mükemmel sayılar 
-    for (let k = 1; k < 10; k++) {  
+    for (let k = 1; k < 2; k++) {  
         for (let m = 1; m < k; m++) {
             let totalbölen = 0 
             if (k % m ==0){
@@ -82,3 +82,19 @@ friendNumberFind(220,284)
             }
         }     
     }
+
+    //asal sayı bulma
+
+    for (let n= 2; n < 50; n++) {
+        let isPrimes = 0
+        
+        for (let z = 2 ; z < n; z++) {
+        
+            if(n % z == 0){
+                isPrimes++
+        }    
+    }
+    if(isPrimes == 0){
+        console.log(n + " asal sayıdır.")
+    }
+}
