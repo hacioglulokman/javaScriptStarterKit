@@ -15,10 +15,10 @@ function findPrime(...numbers) {
 
     if (isPrime == 0) {
 
-        console.log(numbers[i]+ "asaldır")   
+        console.log(numbers[i]+ " asaldır")   
     }
     else{
-        console.log(numbers[i]+ "asal değildir.")
+        console.log(numbers[i]+ " asal değildir.")
     }
 
     }
