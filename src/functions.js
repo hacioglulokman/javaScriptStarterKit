@@ -141,6 +141,6 @@ function findPrime(...asalSayi)
          }
     }
     let asalSayi = [40,30]
-    asalSayiBul(asalSayi)
+   
 
   
