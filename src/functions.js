@@ -140,7 +140,7 @@ function findPrime(...asalSayi)
 
          }
     }
-    let asalSayi = [40,30]
+    let sayi2 = [40,30]
    
 
   
