@@ -1,13 +1,17 @@
-function findNPrime(...numbers) {
+//asal sayı bulma!
+function findPrime(...numbers) {
 
     for (let i = 0; i< numbers.length; i++){    
-         let isPrime = 0
+         let isPrime = 0;
          
        for (let j = 2; j < numbers[i]; j++) {
-        if (numbers[i]%j==0)
-        isPrime++         
+       
+        if (numbers[i]%j==0){
+        
+            isPrime++;         
            
-       }  
+       }
+    }  
 
     if (isPrime==0) {
 
@@ -16,6 +20,7 @@ function findNPrime(...numbers) {
     }else{
         console.log(numbers[i]+ "asal değildir.")
     }
+    }
 }
-}
-findNPrime(7,17)
+
+findPrime(2,5,8,21,13)
