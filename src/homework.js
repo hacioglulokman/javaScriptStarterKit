@@ -17,5 +17,5 @@ function findNPrime(...numbers) {
         console.log(numbers[i]+ "asal değildir.")
     }
 }
-
+}
 findNPrime(7,17)
